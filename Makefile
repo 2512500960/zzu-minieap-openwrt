@@ -3,14 +3,12 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=minieap
 PKG_VERSION:=0.92.1
 PKG_RELEASE:=1
-PKG_MAINTAINER:=Richard Yu <yurichard3839@gmail.com>
 PKG_LICENSE:=GPLv3
 PKG_LICENSE_FILES:=LICENSE
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/updateing/minieap.git
+PKG_SOURCE_URL:=https://github.com/2512500960/zzu-mineap.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=12f2c5756ffa379e760d5ea373ca61403b7ffcb9
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 
 include $(INCLUDE_DIR)/package.mk
