@@ -1,7 +1,4 @@
-从别人哪里import过来的！
-从别人哪里import过来的，
-从别人哪里import过来的，
-重要的事情说三遍
+
 # minieap for OpenWRT
 
 ## Build
@@ -10,7 +7,9 @@ First download [OpenWRT SDK](https://downloads.openwrt.org/) for your device.
 
 ```sh
 cd /path/to/your/sdk
-git clone https://github.com/GZHU-Dress/openwrt-minieap.git package/minieap
+cd package
+git clone https://github.com/2512500960/zzu-minieap-openwrt.git
+cd ..
 make menuconfig # choose `minieap` in section `Network`
-make package/minieap/compile V=s
+make package/zzu-minieap/compile V=s
 ```
