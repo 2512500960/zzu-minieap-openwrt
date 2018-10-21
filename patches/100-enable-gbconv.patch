@@ -10,4 +10,4 @@
 #+ENABLE_GBCONV := true
  STATIC_BUILD  := false
  
- # If your platform has iconv_* integrated into libc, change to false
+# If your platform has iconv_* integrated into libc, change to false
