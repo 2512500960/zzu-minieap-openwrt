@@ -11,5 +11,5 @@ cd package
 git clone https://github.com/2512500960/zzu-minieap-openwrt.git
 cd ..
 make menuconfig # choose `minieap` in section `Network`
-make package/zzu-minieap/compile V=s
+make package/zzu-minieap-openwrt/compile V=s
 ```
